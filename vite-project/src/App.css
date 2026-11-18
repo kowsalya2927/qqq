@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+  font-family: Arial,sans-serif;
+}
+.app {
+  text-align: center;
+  padding: 30px;
+}
+h1 {
+  color:black;
+  margin-bottom: 60px;
+}
+.student-card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-color: black;
+}
+.student-card h2 {
+  color: black;
+  text-align: left;
+}
+.student-card p {
+  color: black;
+  text-align: left;
+}
+@media (max-width: 600px){
+  .student-card {
+    width: 85%;
+  }
+}
